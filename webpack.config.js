@@ -23,7 +23,8 @@ module.exports = {
     path: path.resolve('build'),
     filename: 'built.js',
     publicPath: '/',
-    libraryTarget: 'commonjs2'
+    libraryTarget: 'this',
+    library: 'example',
   },
   resolve: {
     extensions: ['.js']
